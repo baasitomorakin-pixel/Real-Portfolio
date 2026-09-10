@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     contactForm.addEventListener("submit", (event) => {
 
-        event.preventDefault();
+        // event.preventDefault();
 
         const name =
             document.getElementById("name").value.trim();
